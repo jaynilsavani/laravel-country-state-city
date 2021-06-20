@@ -1,7 +1,11 @@
 Laravel Country, State and City
 ======
 
+[![Total Downloads](http://poser.pugx.org/jaynilsavani/laravel-country-state-city/downloads)](https://packagist.org/packages/jaynilsavani/laravel-country-state-city)  [![License](http://poser.pugx.org/jaynilsavani/laravel-country-state-city/license)](https://packagist.org/packages/jaynilsavani/laravel-country-state-city)
+
+
 World's Country, State and City Provider for Laravel.
+
 
 Installation
 -----
@@ -17,6 +21,7 @@ To publish configurations,
 ```
 php artisan world:publish
 ```
+
 
 Usage
 -----
