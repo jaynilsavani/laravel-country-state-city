@@ -1,0 +1,50 @@
+{
+    "name": "jaynilsavani/laravel-country-state-city",
+    "description": "Laravel country, state and city collection.",
+    "keywords": [
+        "laravel",
+        "php",
+        "world",
+        "map",
+        "country",
+        "state",
+        "city",
+        "location"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jaynilsavani",
+            "email": "jenilsavani009@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3",
+        "illuminate/support": "^8.0",
+        "laravel/ui": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JaynilSavani\\CountryStateCity\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JaynilSavani\\CountryStateCity\\CountryStateCityProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "Illuminate\\Foundation\\ComposerScripts::postInstall",
+            "composer dump-autoload",
+            "php artisan optimize"
+        ],
+        "post-update-cmd": [
+            "Illuminate\\Foundation\\ComposerScripts::postUpdate",
+            "composer dump-autoload"
+        ]
+    }
+}
