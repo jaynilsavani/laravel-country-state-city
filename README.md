@@ -10,10 +10,16 @@ World's Country, State and City Provider for Laravel.
 Installation
 -----
 
-Run a command,
+Run a command for Laravel 8,
 
 ```
-composer require jaynilsavani/laravel-country-state-city
+composer require jaynilsavani/laravel-country-state-city:1.0.0
+```
+
+Run a command for Laravel 7,
+
+```
+composer require jaynilsavani/laravel-country-state-city:1.1.0
 ```
 
 To publish configurations,
