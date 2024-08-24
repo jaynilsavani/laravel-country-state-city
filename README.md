@@ -1,7 +1,6 @@
 Laravel Country, State and City
 ======
-
-[![Total Downloads](http://poser.pugx.org/jaynilsavani/laravel-country-state-city/downloads)](https://packagist.org/packages/jaynilsavani/laravel-country-state-city)  [![License](http://poser.pugx.org/jaynilsavani/laravel-country-state-city/license)](https://packagist.org/packages/jaynilsavani/laravel-country-state-city)
+[![Total Downloads](https://poser.pugx.org/jaynilsavani/laravel-country-state-city/downloads.svg)](https://packagist.org/packages/jaynilsavani/laravel-country-state-city) [![License](https://poser.pugx.org/jaynilsavani/laravel-country-state-city/license.svg)](https://poser.pugx.org/jaynilsavani/laravel-country-state-city/license.svg)
 
 
 World's Country, State and City Provider for Laravel.
